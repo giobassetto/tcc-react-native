@@ -5,8 +5,8 @@ import MainGit from './pages/MainGit';
 import User from './pages/User';
 import Initial from './pages/Initial';
 import Benchmark from './pages/Benchmark';
-import Camera from './pages/Camera';
 import PageCamera from './pages/PageCamera';
+import Mapa from './pages/Mapa';
 
 const Routes = createAppContainer(
   createStackNavigator(
@@ -15,8 +15,8 @@ const Routes = createAppContainer(
       MainGit,
       User,
       Benchmark,
-      Camera,
       PageCamera,
+      Mapa,
     },
     {
       headerLayoutPreset: 'center',

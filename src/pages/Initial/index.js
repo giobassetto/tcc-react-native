@@ -31,6 +31,9 @@ export default function Initial({navigation}) {
       <ConsumerApiButton onPress={() => navigation.navigate('Benchmark')}>
         <TextButton> Teste de Benchmark </TextButton>
       </ConsumerApiButton>
+      <ConsumerApiButton onPress={() => navigation.navigate('Mapa')}>
+        <TextButton> Localização </TextButton>
+      </ConsumerApiButton>
     </Container>
   );
 }

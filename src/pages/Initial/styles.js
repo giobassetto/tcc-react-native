@@ -32,7 +32,7 @@ export const Xamarin = styled.Image`
 `;
 
 export const ConsumerApiButton = styled(RectButton)`
-  margin-top: 50px;
+  margin-top: 30px;
   align-self: center;
   border-radius: 4px;
   background: #3700b3;
